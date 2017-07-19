@@ -1,5 +1,5 @@
 #!/bin/sh
-git clone https://github.com/4j4y/ruby_template.git
+cd ..
 mv ruby_template $1
 cd $1
 mv bin/project_name bin/$1
@@ -9,3 +9,4 @@ mv lib/project_name.rb lib/$1".rb"
 echo "require '$1'" >> spec/spec_helper.rb
 rm -rf .git
 git init
+rm -f create_ruby_template
