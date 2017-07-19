@@ -7,7 +7,7 @@ mkdir lib/$1
 mkdir spec/$1
 mv lib/project_name.rb lib/$1".rb"
 echo "require '$1'" >> spec/spec_helper.rb
-echo "require '$1'" >> bin/$1.rb
+echo "require '$1'" >> bin/$1
 rm -rf .git
 git init
 rm -f create_ruby_template
