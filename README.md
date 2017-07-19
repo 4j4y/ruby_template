@@ -8,9 +8,9 @@
   * `gem install bundler`
 
 ## Build Instruction
-- To resolve dependencies run command
+- To resolve dependencies, run command
   * `bundle install`
-- To build run command
+- To build, run command
   * `bundle exec rake`
   
 ## Run Instruction
